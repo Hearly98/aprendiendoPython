@@ -1,0 +1,7 @@
+modules = ["python-3.11"]
+run = "comprehensions-funciones-y-manejo-de-errores/clase-03/prueba-clase-03.py"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "comprehensions-funciones-y-manejo-de-errores/clase-03/prueba-clase-03.py"]

@@ -1,0 +1,6 @@
+#Modificando conjuntos crud_set
+set_countries = {'col', 'mex', 'bol'}
+
+#Tamaño del conjunto
+size = len(set_countries)
+print(size)
